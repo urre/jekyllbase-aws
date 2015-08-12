@@ -2,13 +2,16 @@
 	
 	<div class="container clearfix">
 		<p>
-			<a class="left-align px3" href="{{ site.url }}">Start</a>
-			<a class="left-align px3" href="{{ site.baseurl }}about/">About
+			<a class="left-align px3" href="/">Start</a>
 			<a class="right-align px3" href="{{site.repo}}">Github</a>
 		</p>
 	</div>
 </footer>
 
+{% if site.buildtype == "production" %}
+{% javascript main %}
+{% else %}
 <script src="{{site.baseurl }}/js/main.js"></script>
+{% endif %}
 
 </script>

@@ -1,0 +1,20 @@
+# Site settings
+title:              Jekyllbase
+email:              hej@urre.me
+description:        Minimal Jekyll Starter using Basscss and Gulp
+twitter_username:   urre
+exclude: 			["node_modules", "gulpfile.js", "package.json", "bower_components", "gulp"]
+buildtype: 			development
+url:				http://urre.github.io/jekyllbase
+repo: 				https://github.com/urre/jekyllbase
+twittercards:		true
+baseurl:     		/jekyllbase/
+
+# Build settings
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
+paginate:     10
+
+# Permalinks
+relative_permalinks: true

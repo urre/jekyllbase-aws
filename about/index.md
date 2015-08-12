@@ -38,8 +38,6 @@ With a single command you have the site spinning locally at [http://localhost:30
 
 	gulp prod
 
-Note: If using this alternative you can use Jekyll Assets for fingerprinted files. Include ``head-jekyll-assets.html`` and ``footer-jekyll-assets.html`` instead of ``head.html`` and ``footer.html`` in the default template
-
 ## Deploy
 
 ### Deploy to Amazon S3 (using [s3_website](https://github.com/laurilehmijoki/s3_website))

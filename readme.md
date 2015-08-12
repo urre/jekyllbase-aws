@@ -1,6 +1,10 @@
-# Jekyllbase
+# Jekyllbase AWS
 
 Fork of my Jekyll starter [Jekyllbase](https://github.com/urre/jekyllbase). Jekyllbase AWS is for deploying your Jekyll site on Amazon S3. 
+
+## Features
+
+Like my [Jekyllbase](https://github.com/urre/jekyllbase) but with the addition of using the Jekyll plugin [Jekyll Assets](https://github.com/jekyll-assets/jekyll-assets) (Assets pipelines for Jekyll). Used for nice finger printed assets.
 
 ## Setup
 
@@ -24,7 +28,7 @@ With a single command you have the site spinning locally at [http://localhost:30
 
 ## Build
 
-### Build for production for use on AWS or separate hosting/VPS. 
+### Build for production for use on AWS or host it your self on a VPS. I rekommend [digitalocean.com](http://digitalocean.com)
 
 	gulp prod
 
@@ -34,6 +38,6 @@ Note: If using this alternative you can use Jekyll Assets for fingerprinted file
 
 ### Deploy to Amazon S3 (using [s3_website](https://github.com/laurilehmijoki/s3_website))
 
-First read credentials via an ``.env`` file to ``s3_website.yml``. Don't version control your credentials.
+First read credentials via an ``.env`` file to ``s3_website.yml``. Do not version control your credentials.
 
 	s3_website push

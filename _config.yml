@@ -4,17 +4,28 @@ email:              hej@urre.me
 description:        Minimal Jekyll Starter using Basscss and Gulp
 twitter_username:   urre
 exclude: 			["node_modules", "gulpfile.js", "package.json", "bower_components", "gulp"]
-buildtype: 			development
-url:				http://urre.github.io/jekyllbase
-repo: 				https://github.com/urre/jekyllbase
+buildtype: 			production
+url:				http://urre.github.io/jekyllbase-aws
+repo: 				https://github.com/urre/jekyllbase-aws
 twittercards:		true
-baseurl:     		/jekyllbase/
 
 # Build settings
-markdown:     rdiscount
-permalink:    pretty
-pygments:     true
 paginate:     10
+markdown:    redcarpet
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
 
-# Permalinks
-relative_permalinks: true
+# Assets using Jekyll Asset Pipeline
+assets:
+ debug: false
+ sources:
+   - assets/
+
+# Compress html
+compress_html:
+ clippings: []
+ comments: []
+ endings: []
+ ignore:
+   envs: []

@@ -1,6 +1,6 @@
 # Jekyllbase AWS
 
-Fork of my Jekyll starter [Jekyllbase](https://github.com/urre/jekyllbase). Jekyllbase AWS is for deploying your Jekyll site on Amazon S3. 
+Fork of my Jekyll starter [Jekyllbase](https://github.com/urre/jekyllbase). Jekyllbase AWS is for made deploying your Jekyll site to Amazon S3. 
 
 ## Features
 
@@ -28,7 +28,7 @@ With a single command you have the site spinning locally at [http://localhost:30
 
 ## Build
 
-### Build for production for use on AWS or host it your self on a VPS. I rekommend [digitalocean.com](http://digitalocean.com)
+### Build for production for use on AWS or host it your self on a VPS. I recommend [digitalocean.com](http://digitalocean.com)
 
 	gulp prod
 

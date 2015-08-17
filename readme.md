@@ -28,7 +28,9 @@ With a single command you have the site spinning locally at [http://localhost:30
 
 ## Build
 
-### Build for production for use on AWS or host it your self on a VPS. I recommend [digitalocean.com](http://digitalocean.com)
+### Build for production 
+
+For use on [Amazon AWS](http://aws.amazon.com) on a S3 bucket. (Or host it your self on a VPS. I recommend [digitalocean.com](http://digitalocean.com))
 
 	gulp prod
 

@@ -9,6 +9,10 @@ url:				http://urre.github.io/jekyllbase-aws
 repo: 				https://github.com/urre/jekyllbase-aws
 twittercards:		true
 
+gems:
+- jekyll-assets
+- jekyll-paginate
+
 # Build settings
 paginate:     10
 markdown:    redcarpet

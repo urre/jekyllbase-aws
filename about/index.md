@@ -2,6 +2,7 @@
 layout: default
 title: About
 description: About Jekyllbase AWS
+permalink: /about/
 ---
 
 ### About
@@ -34,7 +35,7 @@ With a single command you have the site spinning locally at [http://localhost:30
 
 ## Build
 
-### Build for production for use on AWS or host it your self on a VPS. I recommend [digitalocean.com](http://digitalocean.com)
+### For use on AWS or host it your self.
 
 	gulp prod
 

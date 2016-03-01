@@ -16,10 +16,6 @@ Install NPM dependencies
 
 	npm install
 
-Install Bower dependencies
-
-	bower install
-
 ## Develop
 
 With a single command you have the site spinning locally at [http://localhost:3000/](http://localhost:3000/). [BrowserSync](http://www.browsersync.io) injects and reloads on file changes (Sass files, Markdown files and html files/includes).
@@ -30,7 +26,7 @@ With a single command you have the site spinning locally at [http://localhost:30
 
 ### Build for production 
 
-For use on [Amazon AWS](http://aws.amazon.com) on a S3 bucket. (Or host it your self on a VPS. I recommend [digitalocean.com](http://digitalocean.com))
+For use on [Amazon AWS](http://aws.amazon.com) on a S3 bucket. (Or host it your self.
 
 	gulp prod
 
